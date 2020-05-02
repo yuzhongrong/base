@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮正常的时候的背景 -->
+<!-- shape的默认形状是rectangle，还有oval(椭圆),line（线）,ring（圆环），我就用过rectangle,其他的大家可以试一试 -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置圆角大小-->
+    <corners android:radius="5dp"/>
+    <!--设置背景颜色渐变-->
+    <!--            android:startColor="#ffabb8c9"-->
+    <!--            android:endColor="#ff6f84a3"-->
+    <gradient
+            android:startColor="#29B6F6"
+            android:endColor="@color/main_bg"
+            android:angle="90"/>
+</shape>
